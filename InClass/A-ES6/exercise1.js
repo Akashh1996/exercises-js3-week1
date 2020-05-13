@@ -10,12 +10,10 @@ console.log(x());
 
 
 //Use the es6 syntax for default parameter
-function defaultParameter(name = "akash") {
-  
-  return name;
-}
+const defaultParameter = (name = "akash") =>  name;
 
-console.log(defaultParameter());
+
+console.log(defaultParameter("bikash"));
 
 // Use the spread operator to combine arr1 and arr2
 function combineArrays(arr1, arr2) {
