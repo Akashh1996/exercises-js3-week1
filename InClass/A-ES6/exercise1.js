@@ -42,3 +42,4 @@ function templateString(a, b) {
 }
 
 console.log(templateString(1,2));
+
